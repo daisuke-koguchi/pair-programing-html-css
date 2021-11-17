@@ -1,13 +1,15 @@
 html{
   font-size: 62.5%;
   height: 100%;
+  width: 100%;
 }
 body{
   height: 100%;
+  width: 100%
   margin: 0 auto;
 }
 .container{
-  width: 980px;
+  width: 100%;
   margin: 0 auto;
   min-height: 100%;
   position: relative;
@@ -15,6 +17,7 @@ body{
 .header{
   background-color: #6f14e6;
   height: 50px;
+  width:100%;
   font-size: 1.5rem;
 }
 .logo li{
@@ -42,6 +45,7 @@ body{
 .image_area{
   width: 100%;
   height: 30%;
+  background-color: transparent;
 }
 .wrapper{
   margin-top:10px;
@@ -50,6 +54,17 @@ body{
 .side_menu{
   width: 300px;
   float: right;
+  margin-right: 15%;
+  margin-top: 25px;
+}
+#datetime{
+  width:300px;
+  height: 6rem;
+  font-size: 5rem;
+  color:white;
+  background-color: transparent;
+  /* padding-top: 200px; */
+  font-weight: bold; 
 }
 .side_menu li{
   background-color: #eb0dcd;
@@ -89,13 +104,8 @@ body{
   line-height: 2 ;
 }
 .footer{
-    background-color: #2baa2b;
-    height:100px;
-    width: 100%;
-}
-.footer{
   width: 100%;
-  height: 100px;
+  height: 50px;
   position:absolute;
   bottom: 0;
   background-color: #4D4E4D;

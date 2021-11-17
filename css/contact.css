@@ -1,5 +1,6 @@
 .form{
   border-collapse: separate;
+  margin-left: 15%;
 }
 .form tr{
   height: 7rem;
@@ -7,6 +8,7 @@
 .form th{
   width: 150px;
   text-align: right;
+  color:white;
 }
 .text{
   width: 480px;
@@ -38,4 +40,5 @@
 }
 .image_k{
   width: 200px;
+  background-color: transparent;
 }
